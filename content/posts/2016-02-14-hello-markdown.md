@@ -2,14 +2,8 @@
 title: A Plain Markdown Post
 author: Yihui Xie
 date: '2016-02-14'
-categories:
-  - Example
-  - Hugo
 tags:
   - blogdown
-  - Markdown
-  - MathJax
-  - Pandoc
   - RStudio
 ---
 

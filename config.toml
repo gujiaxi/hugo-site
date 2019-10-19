@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/hugo-site/"
 languageCode = "en-us"
 title = "a minimal hugo website"
 theme = "xmin"
@@ -8,15 +8,15 @@ footnotereturnlinkcontents = "↩"
 
 [[menu.main]]
     name = "Home"
-    url = ""
+    url = "/"
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "/about/"
     weight = 2
 [[menu.main]]
     name = "Tags"
-    url = "tags/"
+    url = "/tags/"
     weight = 3
 [[menu.main]]
     name = "Subscribe"
