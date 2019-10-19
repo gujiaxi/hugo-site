@@ -1,7 +1,7 @@
-baseURL = "/"
+baseurl = "/"
 languageCode = "en-us"
-title = "a minimal hugo website"
-theme = "xmin"
+title = "A minimal Hugo website"
+theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
