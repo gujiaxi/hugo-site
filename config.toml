@@ -1,27 +1,26 @@
-baseURL = "/hugo-site/"
+baseURL = "hugo-site/"
 languageCode = "en-us"
-title = "a minimal hugo website"
-theme = "xmin"
-googleAnalytics = ""
+title = "Charaka"
+theme = "charaka"
+copyright = "&copy; <a href=\"https://gohugo.io//\">Hugo Go</a> 2019"
 disqusShortname = ""
-footnotereturnlinkcontents = "↩"
+googleAnalytics = ""
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-[[menu.main]]
-    name = "Subscribe"
-    url = "index.xml"
+[params.highlight]
+  style = "zenburn"
 
-[params]
-    description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 -- 2019 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+[[params.social]]
+  url = "about"
+  fa_icon = "fas fa-info"
+
+[[params.social]]
+  url = "https://github.com/github"
+  fa_icon = "fab fa-github"
+
+[[params.social]]
+  url = "https://twitter.com/twitter"
+  fa_icon = "fab fa-twitter"
+
+[[params.social]]
+  url = "index.xml"
+  fa_icon = "fab fa-rss"
